@@ -1,0 +1,19 @@
+{
+  "name": "udemy-algo-ds-masterclass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "000": "node dist/src/000/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bendernnm/udemy-algo-ds-masterclass.git"
+  },
+  "private": true,
+  "dependencies": {
+    "typescript": "^6.0.3"
+  }
+}
