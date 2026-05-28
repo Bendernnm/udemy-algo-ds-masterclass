@@ -1,4 +1,4 @@
-export function power(base: number, exponent: number) {
+export function power(base: number, exponent: number): number {
   if (exponent === 0) {
     return 1;
   } else if (exponent === 1) {
@@ -8,7 +8,7 @@ export function power(base: number, exponent: number) {
   return base * power(base, exponent - 1)
 }
 
-export function powerWithHelper(base: number, exponent: number) {
+export function powerWithHelper(base: number, exponent: number): number {
   if (exponent === 0) {
     return 1;
   }
