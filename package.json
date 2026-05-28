@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "000": "node dist/src/000/index.js",
+    "recursions/factorial": "node dist/src/recursions/factorial",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
