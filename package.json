@@ -7,6 +7,7 @@
     "build": "rm -rf dist && tsc",
     "000": "node dist/src/000/index.js",
     "recursions/factorial": "node dist/src/recursions/factorial",
+    "recursions/power": "node dist/src/recursions/power",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
