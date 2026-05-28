@@ -8,6 +8,7 @@
     "000": "node dist/src/000/index.js",
     "recursions/factorial": "node dist/src/recursions/factorial",
     "recursions/power": "node dist/src/recursions/power",
+    "recursions/range": "node dist/src/recursions/range",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
