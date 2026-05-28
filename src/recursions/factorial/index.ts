@@ -1,5 +1,5 @@
-import { facrtorial } from './facrtorial';
+import { factorial } from './factorial';
 
-const factorial1 = facrtorial(10);
+const factorial1 = factorial(10);
 
 console.log(factorial1);
