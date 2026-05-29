@@ -9,6 +9,7 @@
     "recursions/factorial": "node dist/src/recursions/factorial",
     "recursions/power": "node dist/src/recursions/power",
     "recursions/range": "node dist/src/recursions/range",
+    "search/linear": "node dist/src/search/linear",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
