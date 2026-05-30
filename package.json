@@ -10,6 +10,7 @@
     "recursions/power": "node dist/src/recursions/power",
     "recursions/range": "node dist/src/recursions/range",
     "search/linear": "node dist/src/search/linear",
+    "search/binary": "node dist/src/search/binary",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
