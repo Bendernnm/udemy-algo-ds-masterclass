@@ -13,6 +13,7 @@
     "search/binary": "node dist/src/search/binary",
     "sort/bubble": "node dist/src/sort/bubble",
     "sort/selection": "node dist/src/sort/selection",
+    "sort/insertion": "node dist/src/sort/insertion",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
