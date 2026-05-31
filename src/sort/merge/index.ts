@@ -80,3 +80,5 @@ function oldestToYoungest(a, b) {
 }
 
 console.log(mergeSort(moarKittyData, oldestToYoungest)); // sorted by age in descending order
+
+mergeArrays();
