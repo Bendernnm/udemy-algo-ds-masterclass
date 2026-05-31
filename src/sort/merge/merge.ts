@@ -1,11 +1,11 @@
 export function mergeSort<T>(arr: T[], comparator: (a: T, b: T) => number): T[] {
-  const middle = Math.floor(arr.length / 2);
-  const arr1 = arr.slice(0, middle);
-  const arr2 = arr.slice(middle);
-
-  if (arr1.length <= 1 && arr2.length <= 1) {
-    return merge(arr1, arr2, comparator);
+  if (arr.length <= 1) {
+    return arr;
   }
+
+  const middle = Math.floor(arr.length / 2);
+  const arr1: T[] = arr.slice(0, middle);
+  const arr2: T[] = arr.slice(middle);
 
   return merge(
     mergeSort(arr1, comparator),
