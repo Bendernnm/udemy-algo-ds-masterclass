@@ -15,6 +15,7 @@
     "sort/selection": "node dist/src/sort/selection",
     "sort/insertion": "node dist/src/sort/insertion",
     "sort/merge": "node dist/src/sort/merge",
+    "sort/quick": "node dist/src/sort/quick",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
